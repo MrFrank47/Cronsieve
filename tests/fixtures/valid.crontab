@@ -1,0 +1,9 @@
+# Esempio di crontab valido
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+
+@hourly /usr/local/bin/hourly_check.sh
+@daily /usr/local/bin/backup.sh
+0 3 * * 1-5 /usr/local/bin/weekday_job.sh
+15 0 1 * * /usr/local/bin/monthly.sh
+0 0 1 1 * /usr/local/bin/yearly.sh

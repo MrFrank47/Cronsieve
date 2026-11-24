@@ -1,0 +1,5 @@
+# Casi limite del parser
+@monthly /usr/local/bin/monthly.sh
+0 0 29 2 * /usr/local/bin/leap.sh
+*/15 9-17 * * 1-5 /usr/local/bin/range_step.sh
+0,30 0 * * * /usr/local/bin/twice_daily.sh

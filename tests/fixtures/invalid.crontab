@@ -1,0 +1,3 @@
+# Righe non valide per test diagnostici
+0 60 * * * /usr/local/bin/bad_hour.sh
+* * * * /usr/local/bin/missing_command.sh
