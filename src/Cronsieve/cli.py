@@ -1,4 +1,4 @@
-"""Interfaccia a riga di comando di cronlens.
+"""Interfaccia a riga di comando di cronsieve.
 
 Stub: implementazione completa nella Sessione 6.
 """

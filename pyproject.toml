@@ -13,7 +13,7 @@ authors = [{name = "Cronsieve"}]
 keywords = ["cron", "crontab", "cli", "scheduler"]
 
 [project.scripts]
-cronlens = "Cronsieve.cli:main"
+cronsieve = "Cronsieve.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

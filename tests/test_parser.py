@@ -5,7 +5,7 @@ from __future__ import annotations
 import os
 import unittest
 
-from cronlens.parser import CronFile, CronJob, CronEnv, parse_file
+from cronsieve.parser import CronFile, CronJob, CronEnv, parse_file
 
 FIXTURES = os.path.join(os.path.dirname(__file__), "fixtures")
 
